@@ -1,7 +1,7 @@
 ![OPINET DOWNLOAD](https://github.com/SEC-WBdle/Oil_Station_Info-Opinet/blob/main/IMAGE/LESSON1.png)
 
 # **전체 소스** 
-* ![전체 소스](https://github.com/SEC-WBdle/Oil_Station_InfoOpinet/blob/main/CODE/%5BOpinet%20Download%5D%20%EC%8B%BC%20%EC%A3%BC%EC%9C%A0%EC%86%8C%20%EC%B0%BE%EA%B8%B0%20-%20%EC%A7%80%EC%97%AD%EB%B3%84%20.ipynb)
+* ![전체 소스](https://github.com/SEC-WBdle/Oil_Station_Info-Opinet/blob/main/CODE/%5BOpinet%20Download%5D%20%EC%8B%BC%20%EC%A3%BC%EC%9C%A0%EC%86%8C%20%EC%B0%BE%EA%B8%B0%20-%20%EC%A7%80%EC%97%AD%EB%B3%84%20.ipynb)
 
 
 # **Step 별 소스**
