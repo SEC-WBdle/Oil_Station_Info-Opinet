@@ -1,30 +1,30 @@
 ![OPINET DOWNLOAD](https://github.com/SEC-WBdle/Oil_Station_Info-Opinet/blob/main/IMAGE/LESSON1.png)
 
-> **# 전체 소스** 
+**# 전체 소스** 
 * - https://github.com/SEC-WBdle/Oil_Station_Info-Opinet/blob/main/CODE/%5BOpinet%20Download%5D%20%EC%8B%BC%20%EC%A3%BC%EC%9C%A0%EC%86%8C%20%EC%B0%BE%EA%B8%B0%20-%20%EC%A7%80%EC%97%AD%EB%B3%84%20.ipynb
 
 
-> **# Step 별 소스**
+**# Step 별 소스**
 ![OPINET DOWNLOAD](https://github.com/SEC-WBdle/Oil_Station_Info-Opinet/blob/main/IMAGE/HOW%20TO%20(BY%20STEP).JPG)
 # Oil_Station_Info-Opinet
   * Opinet(Oil_Station_Info) 오피넷 정보 Analysis
 
 
-# STEP 1 - Install Libraries
+> # STEP 1 - Install Libraries
 ```
 !pip install selenium --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org
 ```
  *  자세한 소스 - https://github.com/SEC-WBdle/Oil_Station_Info-Opinet/blob/main/CODE/Step%201%20-%20Install%20Libraries%20(%EB%AA%A8%EB%93%88%20%EC%84%A4%EC%B9%98).py
  
 
-# STEP 2 - Chrome Driver 설치 방법 
+> # STEP 2 - Chrome Driver 설치 방법 
  * Chrome 버전 확인
  * 설정 - Chrome - Chrome 정보 - Chrome 버젼 확인
  * 버전 87.0.4280.88(공식 빌드) (64비트) -> version 87
  *  자세한 소스 - https://github.com/SEC-WBdle/Oil_Station_Info-Opinet/blob/main/CODE/Step%202%20-%20Install%20Chrome%20Driver(%20%ED%81%AC%EB%A1%AC%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84%20%EC%84%A4%EC%B9%98).py
 
 
-# Step 3 - Chrome Driver 통해 웹페이지 [Opinet,오피넷] 접속
+> # Step 3 - Chrome Driver 통해 웹페이지 [Opinet,오피넷] 접속
  * 주유쇼 관련 정보 가져오기 
  * opinet - 유가정보 제공 | 한국석유공사 
  * https://www.opinet.co.kr/
