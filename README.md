@@ -6,36 +6,37 @@
   * Opinet(Oil_Station_Info) 오피넷 정보 Analysis
 
 
-# Install Libraries
+# STEP 1 - Install Libraries
 ```
 !pip install selenium --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org
 ```
+ * (https://github.com/SEC-WBdle/Oil_Station_Info-Opinet/blob/main/CODE/Step%201%20-%20Install%20Libraries%20(%EB%AA%A8%EB%93%88%20%EC%84%A4%EC%B9%98).py)
+ 
 
-#  주유쇼 관련 정보 가져오기 
-* opinet - 유가정보 제공 | 한국석유공사 
-* https://www.opinet.co.kr/
+# STEP 2 - Chrome Driver 설치 방법 
+ * Chrome 버전 확인
+ * 설정 - Chrome - Chrome 정보 - Chrome 버젼 확인
+ * 버전 87.0.4280.88(공식 빌드) (64비트) -> version 87
+ * (https://github.com/SEC-WBdle/Oil_Station_Info-Opinet/blob/main/CODE/Step%202%20-%20Install%20Chrome%20Driver(%20%ED%81%AC%EB%A1%AC%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84%20%EC%84%A4%EC%B9%98).py)
 
-# 오피넷 접속 
-```
-from selenium import webdriver
-driver = webdriver.Chrome("C:/Users/Sung/Downloads/chromedriver.exe")
-driver.get("http://www.opinet.co.kr")
-```
 
-# Headless Option
-IF BACKGROUND 에서 진행하고 싶다면 -- HEADLESS OPTION 이 필요 
-```
-from selenium import webdriver
-options = webdriver.ChromeOptions()
-options.add_argument('headless')
-options.add_argument('window-size=1920x1080')
-options.add_argument("disable-gpu")
-driver = webdriver.Chrome("C:/Users/Sung/Downloads/chromedriver.exe", options = options)
-print ("Headless Chrome Initialized")
-params = {'behavior': 'allow', 'downloadPath': r'C:\Users\Sung\Downloads'}
-driver.execute_cdp_cmd('Page.setDownloadBehavior', params)
-driver.get("http://www.opinet.co.kr") #오피넷 접속
-```
+# Step 3 - Chrome Driver 통해 웹페이지 [Opinet,오피넷] 접속
+ * 주유쇼 관련 정보 가져오기 
+ * opinet - 유가정보 제공 | 한국석유공사 
+ * https://www.opinet.co.kr/
+ 
+ * 자세한 소스 - (https://github.com/SEC-WBdle/Oil_Station_Info-Opinet/blob/main/CODE/Step%203%20-%20Chrome%20Driver%20%ED%86%B5%ED%95%B4%20%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80%20%5BOpinet%2C%EC%98%A4%ED%94%BC%EB%84%B7%5D%20%EC%A0%91%EC%86%8D.py)
+
+  # 오피넷 접속 
+  ```
+  from selenium import webdriver
+  driver = webdriver.Chrome("C:/Users/Sung/Downloads/chromedriver.exe")
+  driver.get("http://www.opinet.co.kr")
+  ```
+
+  # Headless Option
+  IF BACKGROUND 에서 진행하고 싶다면 -- HEADLESS OPTION 이 필요 
+
 
 # 웹페이져 section 별 접근경로
 
