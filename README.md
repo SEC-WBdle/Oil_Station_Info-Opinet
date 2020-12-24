@@ -41,6 +41,9 @@ driver.get("http://www.opinet.co.kr") #오피넷 접속
 
 ![OPINET WEBSITE](https://github.com/SEC-WBdle/Oil_Station_Info-Opinet)
 
+![OPINET DOWNLOAD](https://github.com/SEC-WBdle/Oil_Station_Info-Opinet/blob/main/IMAGE/OPINET.JPG)
+
+
 접근하고 싶은 곳의 코드를 실행 
 EX. 싼 주유소 찾기 - 지역별에 들어가고 싶으면 코드 한줄만 실행하면 됨 
 ```
