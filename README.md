@@ -39,4 +39,4 @@
  * ![자세한 소스파일(.py)]( https://github.com/SEC-WBdle/Oil_Station_Info-Opinet/blob/main/CODE/Step%207%20-%20%EB%B6%80%EA%B0%80%EC%A0%95%EB%B3%B4%20%EB%B0%8F%20%EB%B2%84%ED%8A%BC%ED%81%B4%EB%A6%AD.py)
 
 ## Step 8 - 조회 버튼 및 엑셀 저장 
- * ![자세한 소스파일(.py)](  https://github.com/SEC-WBdle/Oil_Station_Info-Opinet/blob/main/CODE/Step%208%20-%20%EC%A1%B0%ED%9A%8C%20%EB%B2%84%ED%8A%BC%20%EB%B0%8F%20%EC%97%91%EC%85%80%20%EC%A0%80%EC%9E%A5.py)
+ * ![자세한 소스파일(.py)](https://github.com/SEC-WBdle/Oil_Station_Info-Opinet/blob/main/CODE/Step%208%20-%20%EC%A1%B0%ED%9A%8C%20%EB%B2%84%ED%8A%BC%20%EB%B0%8F%20%EC%97%91%EC%85%80%20%EC%A0%80%EC%9E%A5.py)
